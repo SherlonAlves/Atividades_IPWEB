@@ -1,0 +1,62 @@
+<!doctype html> 
+
+<html>
+
+	<head>
+
+	<title>	Meu Site </title>
+	<meta charset="utf-8">
+
+	</head>
+
+	<body>
+
+		<h1>Cadastro</h1>
+
+		<form action="http://191.252.62.149:8080/pweb/salvar.jsp" method="post">
+			Login:<br/>	
+			<input type="text" name="Login"><br/>
+
+			Senha:<br/>
+			<input type="password" name="senha"><br/>
+
+			Confirmar Senha:<br/>
+			<input type="password" name="charsetonfirmarSenha"><br/>
+
+			Nome:<br/>
+			<input type="text" name="nome"><br/>
+
+			Sexo:<br/>
+			<input type="radio" value="Masculino" name="sexo">Masculino<br/>
+			<input type="radio" value="Femenino" name="sexo">Femenino<br/>
+
+			Email:<br/>
+			<input type="email" name="Email"><br/>
+
+			Interesses:<br/>
+			<input type="checkbox" value="Futebol" name="interesses">Futebol<br/>
+			<input type="checkbox" value="Política" name="interesses">Política<br/>
+			<input type="checkbox" value="Economia" name="interesses">Economia<br/>
+			<input type="checkbox" value="Carros" name="interesses">Carros<br/>
+			<input type="checkbox" value="Celebridades" name="interesses">Celebridades<br/>
+
+			Estado:<br/>
+			<select name="estado">
+				<option value="" selected="">Vazio</option>
+				<option value="PI">PI</option>
+				<option value="MA">MA</option>
+				<option value="CE">CE</option>
+			</select><br/>
+
+			Observações:<br/>
+			<textarea name="Observações"></textarea><br/>
+
+			<br/>
+
+			<input type="submit" value="Enviar">
+
+		</form>
+			
+	</body>
+
+</html>
